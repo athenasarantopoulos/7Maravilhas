@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC42089126A6EF9D00C38961 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC42089026A6EF9D00C38961 /* DetailsViewController.swift */; };
+		AC42089326A6F2CF00C38961 /* Maravilha.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC42089226A6F2CF00C38961 /* Maravilha.swift */; };
 		AC7CB7CB26A5B577002B5500 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7CB7CA26A5B577002B5500 /* AppDelegate.swift */; };
 		AC7CB7CD26A5B577002B5500 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7CB7CC26A5B577002B5500 /* SceneDelegate.swift */; };
 		AC7CB7CF26A5B577002B5500 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7CB7CE26A5B577002B5500 /* ViewController.swift */; };
@@ -15,6 +17,7 @@
 		AC7CB7D726A5B578002B5500 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC7CB7D526A5B578002B5500 /* LaunchScreen.storyboard */; };
 		AC7CB7E226A5B578002B5500 /* _MaravilhasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7CB7E126A5B578002B5500 /* _MaravilhasTests.swift */; };
 		AC7CB7ED26A5B578002B5500 /* _MaravilhasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7CB7EC26A5B578002B5500 /* _MaravilhasUITests.swift */; };
+		AC7CB7FB26A607CC002B5500 /* MaravilhaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7CB7FA26A607CC002B5500 /* MaravilhaTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AC42089026A6EF9D00C38961 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		AC42089226A6F2CF00C38961 /* Maravilha.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maravilha.swift; sourceTree = "<group>"; };
 		AC7CB7C726A5B577002B5500 /* 7Maravilhas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 7Maravilhas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC7CB7CA26A5B577002B5500 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC7CB7CC26A5B577002B5500 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +54,7 @@
 		AC7CB7E826A5B578002B5500 /* 7MaravilhasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 7MaravilhasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC7CB7EC26A5B578002B5500 /* _MaravilhasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _MaravilhasUITests.swift; sourceTree = "<group>"; };
 		AC7CB7EE26A5B578002B5500 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC7CB7FA26A607CC002B5500 /* MaravilhaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaravilhaTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +105,16 @@
 		AC7CB7C926A5B577002B5500 /* 7Maravilhas */ = {
 			isa = PBXGroup;
 			children = (
+				AC42089026A6EF9D00C38961 /* DetailsViewController.swift */,
 				AC7CB7CA26A5B577002B5500 /* AppDelegate.swift */,
 				AC7CB7CC26A5B577002B5500 /* SceneDelegate.swift */,
 				AC7CB7CE26A5B577002B5500 /* ViewController.swift */,
+				AC42089226A6F2CF00C38961 /* Maravilha.swift */,
 				AC7CB7D026A5B577002B5500 /* Main.storyboard */,
 				AC7CB7D326A5B578002B5500 /* Assets.xcassets */,
 				AC7CB7D526A5B578002B5500 /* LaunchScreen.storyboard */,
 				AC7CB7D826A5B578002B5500 /* Info.plist */,
+				AC7CB7FA26A607CC002B5500 /* MaravilhaTableViewCell.swift */,
 			);
 			path = 7Maravilhas;
 			sourceTree = "<group>";
@@ -261,6 +270,9 @@
 				AC7CB7CF26A5B577002B5500 /* ViewController.swift in Sources */,
 				AC7CB7CB26A5B577002B5500 /* AppDelegate.swift in Sources */,
 				AC7CB7CD26A5B577002B5500 /* SceneDelegate.swift in Sources */,
+				AC7CB7FB26A607CC002B5500 /* MaravilhaTableViewCell.swift in Sources */,
+				AC42089126A6EF9D00C38961 /* DetailsViewController.swift in Sources */,
+				AC42089326A6F2CF00C38961 /* Maravilha.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
